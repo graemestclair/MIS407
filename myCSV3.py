@@ -24,5 +24,5 @@ with open('myData.csv') as csvfile:
     
 #   print the price of the Yellow shirt    
     price = prices[coldex]
-    print('$', price)
+    print('The price of', whatColor, 'is: $', price)
     
